@@ -11,11 +11,32 @@ For the initial code run the following code on the command line
 </pre>
 
 ### Subsequent pull 
-To update your repository, you need to run the following code sequentially
+To update your repository to the latest, you need to run the following code sequentially
 
+<pre>
+- set your remote origin to asynclearning repository
+- if your remote origin has been previously set, remove it
+    git remote remove origin
+    git remote add origin https://github.com/asynclearningio/ReactHooksWorkShop.git
+    git fetch origin
+- reset your remote back to your personal remote origin
+    git remote remove origin
+    git remote add origin [your git repo url]
+</pre>
 
+### Do workshop, commit severally and push to your remote branch (origin)
 
-### Commit and push to your remote 
+<pre>
+- Work through the main exercises and the drill downs
+</pre>
+
+### Code modification to run each exercise
+
+<pre>
+- open index.js, look for the line where the App was imported 
+    import App from './exercise/useEffect/01';
+-Change the import location to your desired exercise.
+</pre>
 
 
 
