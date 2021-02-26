@@ -7,9 +7,21 @@ import { WorkShopNote  } from "../../reusables/workshop-note";
  * 
  */
 function Greeting(){
+
+    const[input, setInput] = React.useState('');
+    function handleChange(e){
+        setInput(e.target.value);
+        //console.log(input);
+    }
     return (
         <div>
             <p>Write your code here 🐨</p>
+            <form>
+                <label htmlFor="input">Name:</label>
+                <input id="input" type="text" onChange={handleChange} value={input}/>
+                {input ? <h2>Hello, {input}</h2> : "Please enter input"}
+            </form>
+            
         </div>
     )
 }
