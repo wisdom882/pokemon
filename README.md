@@ -5,14 +5,19 @@ This workshop solidifies your understanding of React Hooks.
 
 ### Initial clone  
 For the initial code run the following code on the command line
-<code>
-git clone https://github.com/asynclearningio/ReactHooksWorkShop.git
-</code>
+<br />
+<pre>
+    git clone https://github.com/asynclearningio/ReactHooksWorkShop.git
+</pre>
 
-Subsequent pull 
+### Subsequent pull 
+To update your repository, you need to run the following code sequentially
 
 
-Commit and push to your remote 
+
+### Commit and push to your remote 
 
 
-Steps to execute each exercise 
+
+
+### Steps to execute each exercise 
