@@ -13,8 +13,8 @@ For the initial code run the following code on the command line
 ### Subsequent pull 
 To update your repository to the latest, you need to run the following code sequentially
 
-set your remote origin to asynclearning repository
-if your remote origin has been previously set, remove it
+> Set your remote origin to asynclearning repository,
+>if your remote origin has been previously set, remove it
 
 ```shell
     git remote remove origin
@@ -33,8 +33,6 @@ work through the main exercises and the drill downs
 
 ### Code modification to run each exercise
 
-```shell
-- open index.js, look for the line where the App was imported 
-    import App from './exercise/useEffect/01';
--Change the import location to your desired exercise.
-```
+> open index.js, look for the line where the App was imported 
+>    import App from './exercise/useEffect/01';
+> Change the import location to your desired exercise.
