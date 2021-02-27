@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './exercise/useState/01';
+import App from './exercise/liftingState/01';
 import reportWebVitals from './reportWebVitals';
 
 import 'prismjs/themes/prism.css'; /* or your own custom theme */
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css' /* add plugin css */
 // Require all needed languages
 import 'prismjs/components/prism-jsx';
-
-
 // Require all needed plugins
 import 'prismjs/plugins/line-numbers/prism-line-numbers';
 
