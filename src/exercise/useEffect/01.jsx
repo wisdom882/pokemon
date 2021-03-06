@@ -1,27 +1,9 @@
 // useEffect: persistent state
 
 import React from 'react'
-
+import useLocalStorageState from '../../Utils/localstorage'
 import { WorkShopNote } from '../../reusables/workshop-note'
 import file from './01.md'
-
-function useLocalStorageState(key, defaulValue = '',{
-  serialize = JSON.stringify, deSerialize = JSON.parse} = {}){
-  // 🐨 initialize the state to the value from localStorage
-  // 💰 window.localStorage.getItem('name') || initialName
-  const [state, setState] = React.useState(
-    () => window.localStorage.getItem(key)|| defaulValue
-  )
-
-  // 🐨 Here's where you'll use `React.useEffect`.
-  // The callback should set the `name` in localStorage.
-  // 💰 window.localStorage.setItem('name', name)
-  React.useEffect(() => {
-     window.localStorage.setItem(key,state)
-  },[state,key]);
-
-  return [state, setState];
-}
 
 function Greeting({initialName = ''}) {
   
